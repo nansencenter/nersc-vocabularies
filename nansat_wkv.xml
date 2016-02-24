@@ -275,7 +275,7 @@
         <standard_name>land_binary_mask</standard_name>
         <long_name>Land mask</long_name>
         <short_name>landmask</short_name>
-        <units></units>
+        <units>n.a.</units>
         <minmax>0 1</minmax>
         <colormap>jet</colormap>
     </wkv>
@@ -283,7 +283,7 @@
         <standard_name>swath_binary_mask</standard_name>
         <long_name>Swath mask</long_name>
         <short_name>swathmask</short_name>
-        <units></units>
+        <units>n.a.</units>
         <minmax>0 1</minmax>
         <colormap>jet</colormap>
     </wkv>
