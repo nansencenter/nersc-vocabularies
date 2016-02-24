@@ -64,12 +64,6 @@
         <colormap>gray</colormap>
     </wkv>
     <wkv>
-        <standard_name>grayscale</standard_name>
-        <long_name>grayscale</long_name>
-        <units>1</units>
-        <colormap>gray</colormap>
-    </wkv>
-    <wkv>
         <standard_name>albedo</standard_name>
         <long_name>Albedo</long_name>
         <short_name>albedo</short_name>
