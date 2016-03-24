@@ -29,6 +29,12 @@
   minmax: 0 2000
   colormap: jet
 
+- standard_name: anomaly_of_surface_backwards_doppler_centroid_frequency_shift_of_radar_wave
+  long_name: Radar Doppler centroid frequency shift
+  short_name: dca
+  units: Hz
+  minmax: -1000 1000
+  colormap: jet
 
 - standard_name: surface_backwards_brightness_coefficient_of_radar_wave
   long_name: Reflectivity per unit area in slant range
