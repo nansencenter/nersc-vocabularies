@@ -5,6 +5,12 @@
   minmax: -60 60
   colormap: jet
 
+- standard_name: surface_backwards_doppler_frequency_shift_of_radar_wave_due_to_wind_waves
+  long_name: Radar Doppler frequency shift due to wind waves
+  short_name: fww
+  units: Hz
+  minmax: -60 60
+  colormap: jet
 
 - standard_name: predicted_surface_backwards_doppler_frequency_shift_of_radar_wave
   long_name: Geometrically predicted Doppler frequency shift of radar wave
@@ -30,7 +36,7 @@
   colormap: jet
 
 - standard_name: anomaly_of_surface_backwards_doppler_centroid_frequency_shift_of_radar_wave
-  long_name: Radar Doppler centroid frequency shift
+  long_name: Radar Doppler centroid frequency shift subtracted by the geometrically predicted Doppler frequency shift
   short_name: dca
   units: Hz
   minmax: -1000 1000
