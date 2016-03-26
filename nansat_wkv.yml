@@ -39,7 +39,7 @@
   long_name: Radar Doppler centroid frequency shift subtracted by the geometrically predicted Doppler frequency shift
   short_name: dca
   units: Hz
-  minmax: -1000 1000
+  minmax: -100 100
   colormap: jet
 
 - standard_name: valid_pixels_in_grid_of_surface_backwards_doppler_centroid_frequency_shift_of_radar_wave
