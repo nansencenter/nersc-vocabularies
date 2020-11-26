@@ -462,3 +462,18 @@
   minmax: 0 1
   colormap: jet
 
+
+- standard_name: sea_water_potential_temperature_at_sea_floor
+  long_name: "Bottom temperature"
+  short_name: bottomT
+  units: celsius
+  minmax: 1 40
+  colormap: jet
+
+
+- standard_name: sea_surface_wave_mean_period
+  long_name: "Average zero crossing wave period (Tz)"
+  short_name: VTZA
+  units: s
+  minmax: 2000 25000
+  colormap: jet
