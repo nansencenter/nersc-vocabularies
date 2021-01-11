@@ -477,3 +477,17 @@
   units: s
   minmax: 2000 25000
   colormap: jet
+
+- standard_name: sea_water_salinity_at_bottom
+  long_name: "Sea water salinity at bottom"
+  short_name: salinity_bottom
+  units: psu
+  minmax: 0 50
+  colormap: jet
+
+- standard_name: sea_water_temperature_at_bottom
+  long_name: "Sea water temperature at bottom"
+  short_name: water_temp_bottom
+  units: celsius
+  minmax: -2 40
+  colormap: jet
