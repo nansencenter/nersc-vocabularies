@@ -491,3 +491,18 @@
   units: celsius
   minmax: -2 40
   colormap: jet
+
+- standard_name: y_sea_water_velocity
+  long_name: Y Sea Water Velocity
+  short_name: U
+  units: m s-1
+  minmax: -20 20
+  colormap: jet
+  
+- standard_name: x_sea_water_velocity
+  long_name: X Sea Water Velocity
+  short_name: V
+  units: m s-1
+  minmax: -20 20
+  colormap: jet  
+  
