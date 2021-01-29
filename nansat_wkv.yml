@@ -504,7 +504,6 @@
   long_name: X Sea Water Velocity
   short_name: U
   units: m s-1
-  units: m s-1
   minmax: -20 20
   colormap: jet  
   
