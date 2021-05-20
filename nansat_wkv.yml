@@ -498,11 +498,52 @@
   units: m s-1
   minmax: -20 20
   colormap: jet
-  
+
 - standard_name: x_sea_water_velocity
   long_name: X Sea Water Velocity
   short_name: U
   units: m s-1
   minmax: -20 20
-  colormap: jet  
-  
+  colormap: jet
+
+- standard_name: surface_boundary_layer_thickness
+  long_name: Surface boundary layer thickness
+  short_name: surface_boundary_layer_thickness
+  units: m
+  minmax: 0 5000
+  colormap: jet
+
+- standard_name: ice_coverage
+  long_name: Ice coverage
+  short_name: ice_coverage
+  units: na
+  minmax: 0 1
+  colormap: jet
+
+- standard_name: ice_temperature
+  long_name: Ice temperature
+  short_name: ice_temperature
+  units: celsius
+  minmax: -100 0
+  colormap: jet
+
+- standard_name: ice_thickness
+  long_name: Ice thickness
+  short_name: ice_thickness
+  units: m
+  minmax: 0 100
+  colormap: jet
+
+- standard_name: ice_uvelocity
+  long_name: Eastward sea ice velocity
+  short_name: ice_uvelocity
+  units: m s-1
+  minmax: -10 10
+  colormap: jet
+
+- standard_name: icd_vvelocity
+  long_name: Northward sea ice velocity
+  short_name: ice_vvelocity
+  units: m s-1
+  minmax: -10 10
+  colormap: jet
