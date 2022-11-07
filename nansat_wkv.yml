@@ -547,3 +547,17 @@
   units: m s-1
   minmax: -10 10
   colormap: jet
+
+- standard_name: fraction_of_first_year_ice
+  long_name: Fraction of first year ice
+  short_name: fy_frac
+  units: ''
+  minmax: 0 1
+  colormap: jet
+
+- standard_name: age_of_first_year_ice
+  long_name: Age of first year ice
+  short_name: fy_age
+  units: days
+  minmax: 0 300
+  colormap: jet
